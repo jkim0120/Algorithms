@@ -1,9 +1,6 @@
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-import edu.princeton.cs.algs4.StdIn;
-import edu.princeton.cs.algs4.StdOut;
-
 public class ResizingArrayStack<Item> implements Iterable<Item> {
   private Item[] stack = (Item[]) new Object[1];
   private int counter = 0;
